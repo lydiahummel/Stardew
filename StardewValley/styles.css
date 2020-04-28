@@ -4,7 +4,7 @@
     
 }
 header {
-   
+   margin: auto;
 }
 
 .main-header {
@@ -29,6 +29,7 @@ header {
 .navbar {
     font-size: 1.75em;
     text-align: center;
+    margin: auto;
 }
 
 .navbar a {
@@ -49,11 +50,14 @@ a:visited {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 75%;
+    width: 90%;
+    
 }
 
 .headings {
    text-align: center;
-    margin: 1em;
+    margin: auto;
 }
 
 .characters {
@@ -67,38 +71,65 @@ ul {
     text-align: center;
 }
 
-li {
-    display: inline-block;
-    height: 60%;
-    width: 40%;
-    border: 5px solid green;
+li { 
+ border: 5px solid green;
     padding: .5em;
     margin: 1px;
     text-align: center;
-}
+    list-style-type: none;
+    }
+
+
 
 .container {
     background-color: lightgreen;
 }
 
-@media screen and (max-width: 450px) {
+.main-footer {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: darkseagreen;
+    color: darkgreen;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 5px solid green;
+    
+}
+
+@media screen and (min-width: 800px) {
     li {
         height: 80%;
         width: 95%;
         display: inline-block;
+        list-style-type: none;
     }
+    
+    .container {
+    display: inline-block;
+    height: 60%;
+    width: 40%;
+    border: 5px solid green;
+    padding: .5em;
+    margin: 2px;
+    text-align: center;
+    }
+    
+    .map {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+    
 }
 
-@media screen and 
-    (min-width: 451px)
-    and (max-width: 700px){
-        
-}
 
-@media screen and 
-    (min-width 701px)
-    and (max-width: 950){
-        
-}
 
 
