@@ -1,0 +1,2 @@
+$(".container").equalHeights();
+
