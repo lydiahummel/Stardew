@@ -73,6 +73,8 @@ a:visited {
 
 /* character profiles */
 
+
+
 .characters {
     width: 100px;
     height: 100px;
@@ -90,6 +92,7 @@ li {
     margin: 5px;
     text-align: center;
     list-style-type: none;
+    justify-content: center;
     }
 
 
@@ -119,10 +122,18 @@ li {
 
 /* Begin media queries */
 
-
-
+@media screen and (min-width: 600px) {
+    li { 
+    border: 8px solid green;
+    padding: .5px;
+    margin: 9px;
+    text-align: center;
+    list-style-type: none;
+    }
+}
 
 @media screen and (min-width: 800px) {
+    
     li {
         height: 80%;
         width: 95%;
@@ -145,14 +156,15 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     margin-top: 1em;
 }
     
 }
 
 @media screen and (min-width: 1000px) {
-     li {
+    
+    li {
         height: 80%;
         width: 95%;
         display: inline-block;
@@ -174,7 +186,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     margin-top: 1em;
 }
 }

@@ -8,13 +8,16 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" >
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="text/javascript" src="fille.js"></script>
+    
+   
 </head>
+    
+<body>
 
     <!---- header ---->
 <header>
     <h2 class="main-header">Stardew Valley Marriage Candidates</h2>
-    <p id="header-paragraph">Welcome to the marriage candidate site for Eric Barone's hit video game Stardew Valley. This site will familiarize you with information regarding profession, location, and likes and dislikes about each eligable marriage candidate in the world of Stardew valley. With this information, you will discover what the best and worst gifts are to give to each character to progress towards marriage the most quickly.</p>
+    <p id="header-paragraph">Welcome to the marriage candidate site for Eric Barone's hit video game Stardew Valley. This site will familiarize you with information regarding profession, location, and likes and dislikes of each eligable marriage candidate in the world of Stardew valley. With this information, you will discover what the best and worst gifts are to give to each character to progress towards marriage the most quickly.</p>
     
     <div class="navbar">
         <a href="#leah">Leah</a>
@@ -29,54 +32,55 @@
         <a href="#sam">Sam</a>
         <a href="#maru">Maru</a>
         <a href="#shane">Shane</a>
-    
-    
+
     </div>
 </header>
-    
-
-
-<body>
     
     <!--- map of town to familiarize users with locations -->
     <div>
         <section>
             <h2 class="headings"> Map of Stardew Valley</h2>
             <img src="img/stardewmap.png" alt="Stardew Map" class="map">
-        
         </section>
     
     </div>
     
- 
+ <!---- beginning of marriagable candidate profiles -->
     <div>
         <section>
-            
-        <!---- beginning of marriagable candidate profiles -->
             <h2 class="headings"> Bachelor and Bachelorette Profiles</h2>
             <ul>
                 <li class="container" id="leah">
                     <h2>Leah</h2>
-                    <img src="img/leah.png" alt="Leah" class="characters">
-                    <p>LOCATION: West of Pelican town</p>
-                    <p>PROFESSION: Artist</p>
+                    <figure>
+                        <img src="img/leah.png" alt="Leah" class="characters" id="Leahphoto">
+                        <figcaption class="captions" id="leahcaption">Leah Profile Photo</figcaption>
+                    </figure>
+                    <p>LOCATION: west of Pelican Town</p>
+                    <p>PROFESSION: artist</p>
                     <p>LOVES: goat cheese, wine, salad, and stir fry</p>
                     <p>HATES: bread, pizza, and void egg</p>
                 </li>
 
                 <li class="container" id="sebastian">
                     <h2>Sebastian</h2>
-                    <img src="img/sebastian.png" alt="sebastian" class="characters">
-                    <P>LOCATION: West of the mines</P>
-                    <P>PROFESSION: Computer Programmer</P>
+                    <figure>
+                        <img src="img/sebastian.png" alt="sebastian" class="characters">
+                        <figcaption class="captions" id="sebastiancaption">Sebastian Profile Photo</figcaption>
+                    </figure>
+                    <P>LOCATION: west of the mines</P>
+                    <P>PROFESSION: computer programmer</P>
                     <p>LOVES: void egg, frozen tear, and obsidian</p>
                     <p>HATES: artisan goods, clay, and eggs</p>
                 </li>
 
                 <li class="container" id="penny">
                     <h2>Penny</h2>
-                    <img src="img/penny.png" alt="penny" class="characters" >
-                    <p>LOCATION: Trailer in eastern part of town</p>
+                    <figure>
+                        <img src="img/penny.png" alt="penny" class="characters" >
+                        <figcaption class="captions" id="pennycaption">Penny Profile Photo</figcaption>
+                    </figure>
+                    <p>LOCATION: trailer in eastern part of town</p>
                     <p>PROFESSION: teacher / tutor</p>
                     <p>LOVES: diamonds, poppy, and roots platter</p>
                     <p>HATES: alcoholic beverages, rabbit's foot, and hops</p>
@@ -84,16 +88,22 @@
 
                 <li class="container" id="elliott">
                     <h2>Elliott</h2>
-                    <img src="img/elliott.png" alt="elliott" class="characters">
+                    <figure>
+                        <img src="img/elliott.png" alt="elliott" class="characters">
+                        <figcaption class="captions" id="elliottcaption">Elliott Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: the beach</p>
-                    <p>PROFESSION: Writer</p>
+                    <p>PROFESSION: writer</p>
                     <p>LOVES: duck feathers, lobster, and pomegranate</p>
                     <p>HATES: salmonberry, quartz, and sea cucumber</p>
                 </li>
 
                 <li class="container" id="haley">
                     <h2>Haley</h2>
-                    <img src="img/haley.png" alt="haley" class="characters">
+                    <figure>
+                        <img src="img/haley.png" alt="haley" class="characters">
+                        <figcaption class="captions" id="haleycaption">Haley Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: the west edge of town</p>
                     <p>PROFESSION: unemployed</p>
                     <p>LOVES: sunflowers, pink cake, and fruit salad</p>
@@ -102,7 +112,10 @@
 
                 <li class="container" id="alex">
                     <h2>Alex</h2>
-                    <img src="img/alex.png" alt="alex" class="characters" >
+                    <figure>
+                        <img src="img/alex.png" alt="alex" class="characters" >
+                        <figcaption class="captions" id="alexcaption">Alex Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: east end of town</p>
                     <p>PROFESSION: unemployed</p>
                     <p>LOVES: complete breakfast and salmon dinner</p>
@@ -111,7 +124,10 @@
 
                 <li class="container" id="abigail">
                     <h2>Abigail</h2>
-                    <img src="img/abigail.jpg" alt="abigail" class="characters">
+                    <figure>
+                        <img src="img/abigail.jpg" alt="abigail" class="characters">
+                        <figcaption class="captions"id="abigailcaption">Abigail Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: Pierre's General Store</p>
                     <p>PROFESSION: unemployed</p>
                     <p>LOVES: amethyst, chocolate cake, and pumpkin</p>
@@ -120,7 +136,10 @@
 
                 <li class="container" id="harvey">
                     <h2>Harvey</h2>
-                    <img src="img/harvey.png" alt="harvey" class="characters" >
+                    <figure>
+                        <img src="img/harvey.png" alt="harvey" class="characters" >
+                        <figcaption class="captions" id="harveycaption">Harvey Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: the clinic in Pelican Town</p>
                     <p>PROFESSION: doctor</p>
                     <p>LOVES: coffee, wine, and pickles</p>
@@ -129,16 +148,22 @@
 
                 <li class="container" id="emily">
                     <h2>Emily</h2>
-                    <img src="img/emily.png" alt="emily" class="characters">
+                    <figure>
+                        <img src="img/emily.png" alt="emily" class="characters">
+                        <figcaption class="captions" id="emilycaption">Emily Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: west end of Pelican Town</p>
                     <p>PROFESSION: bartender</p>
                     <p>LOVES: amethyst, cloth, and wool</p>
-                    <p>HATES: Fish taco, sashimi, and holly </p>
+                    <p>HATES: fish taco, sashimi, and holly </p>
                 </li>
 
                 <li class="container" id="sam">
                     <h2>Sam</h2>
-                    <img src="img/sam.png" alt="sam" class="characters">
+                    <figure>
+                        <img src="img/sam.png" alt="sam" class="characters">
+                        <figcaption class="captions" id="samcaption">Sam Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: west end of Pelican Town</p>
                     <p>PROFESSION: aspiring musician</p>
                     <p>LOVES: cactus fruit, pizza, and tigerseye</p>
@@ -147,7 +172,10 @@
 
                 <li class="container" id="maru">
                     <h2>Maru</h2>
-                    <img src="img/maru.jpg" alt="maru" class="characters" >
+                    <figure>
+                        <img src="img/maru.jpg" alt="maru" class="characters" >
+                        <figcaption class="captions" id="marucaption">Maru Profile Photo</figcaption>
+                    </figure>
                     <p>LOCATION: west of the mines</p>
                     <p>PROFESSION: aspiring scientist / clinic attendent</p>
                     <p>LOVES: battery packs, diamonds, and gold bar</p>
@@ -156,8 +184,11 @@
 
                 <li class="container" id="shane">
                     <h2>Shane</h2>
-                    <img src="img/shane.png" alt="shane" class="characters" >
-                    <p>LOCATION: west of toen at Marnie's Ranch</p>
+                    <figure>
+                        <img src="img/shane.png" alt="shane" class="characters" >
+                        <figcaption class="captions" id="shanecaption">Shane Profile Photo</figcaption>
+                    </figure>
+                    <p>LOCATION: west of town at Marnie's Ranch</p>
                     <p>PROFESSION: grocery store attendant</p>
                     <p>LOVES: beer, pizza, and pepper poppers</p>
                     <p>HATES: pickles and quartz</p>
@@ -166,13 +197,13 @@
 
         </section>
     </div>
-</body>
 
     <!--- footer --->
 <footer>
-    
     <p class="main-footer">Website developed by Lydia Hummel</p>
-
 </footer>
-
+    
+<script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/app.js"></script>
+</body>
 </html>
