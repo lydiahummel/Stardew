@@ -17,7 +17,6 @@ header {
     align-content: center;
     margin: auto;
     flex-wrap:wrap;
-    
 }
 
 #header-paragraph {
@@ -87,7 +86,6 @@ ul {
 }
 
 li { 
- border: 5px solid green;
     padding: .5em;
     margin: 5px;
     text-align: center;
